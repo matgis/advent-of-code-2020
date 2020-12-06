@@ -1,4 +1,4 @@
-(ns day06.solution
+(ns day06.solution01
   (:require [clojure.java.io :as io]
             [clojure.set :as set]
             [clojure.string :as string]))
