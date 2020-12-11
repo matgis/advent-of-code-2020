@@ -1,3 +1,5 @@
 {:deps {}
  :paths ["src" "resources"]
- :aliases {:bench {:extra-deps {criterium/criterium {:mvn/version "0.4.6"}}}}}
+ :aliases {:bench {:extra-deps {criterium/criterium {:mvn/version "0.4.6"}
+                                com.clojure-goes-fast/clj-async-profiler {:mvn/version "0.4.1"}}
+                   :jvm-opts ["-Djdk.attach.allowAttachSelf"]}}}
